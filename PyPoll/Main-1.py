@@ -10,7 +10,7 @@ votes_percentage = []
 count = 0
 
 #Filepath
-election_data = os.path.join("Resources", "election_data.csv")
+election_data = os.path.join("Resources","Resources", "election_data.csv")
 
 # Open the csv
 with open(election_data, newline="") as csvfile:
